@@ -1,8 +1,6 @@
 # Monte-Carlo-and-Soccer-
 Setting up a Monte Carlo simulation in order to return insight about the most probable matches that will be drawn from the Champions League drawing method, under its facing rules regrading nationalities,previous encounters and groups position for each team.
 
-# Motivation behind taking this "Monte Carlo simulation" approach
-The reason why we decided that the way to solve the problem was to do it approximately was because we proved mathematically, that with the known Champions League rules (as far as we are concerned these are all of them ):
 # How is the Champions League set up?
 # Group Stage (prior to the Knockout Stage, which is the one of interest)
 The group stage involves eight groups of four teams, with each club playing everyone else in that group home and away. The top two sides in each group move on to the round of 16 and the start of the knockout phase, while the third-placed team drops into the UEFA Europa League.
