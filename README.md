@@ -2,7 +2,7 @@
 Setting up a Monte Carlo simulation in order to return insight about the most probable matches that will be drawn from the Champions League drawing method, under its facing rules regrading nationalities,previous encounters and groups position for each team.
 
 # How is the Champions League set up?
-# Group Stage (prior to the Knockout Stage, which is the one of interest)
+# Group Stage (prior to the Knockout Stage)
 The group stage involves eight groups of four teams, with each club playing everyone else in that group home and away. The top two sides in each group move on to the round of 16 and the start of the knockout phase, while the third-placed team drops into the UEFA Europa League.
 Below, the picture shows the results of the Group Stage for this last year:
 
@@ -33,4 +33,10 @@ After this, it was clear to us that the system had no solution and we had to tak
 
 # Numerical Conclusions from simulation of 100000 draws:
 By keeping track of the results in each of the draws (incrementing by a 1 the appropiate entry in the matrix of all possible team combinations) and in the end dividing by 100000, the  probabilities of each match were estimated to be:
+
+![probsteams](https://user-images.githubusercontent.com/97905110/217650644-6b33bf8a-108d-45d4-976d-63db1c11c23e.png)
+
+which is surprisingly similar to the one published by the sport magazine that motivated us to start this project (this is in percentage, ie: multiplied by 100) :
+
+![source_1_50](https://user-images.githubusercontent.com/97905110/217651668-124cbfbf-33f5-40c0-b9c4-1d13cfbebb8f.jpg)
 
