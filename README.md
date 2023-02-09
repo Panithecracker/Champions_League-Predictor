@@ -1,5 +1,5 @@
 # Monte-Carlo-and-Soccer-
-Setting up a Monte Carlo simulation in order to estimate the most probable matches that will be drawn from the Champions League draw, under its facing rules regrading nationalities,previous encounters and groups position for each team.
+Setting up a Monte Carlo simulation in order to estimate the most probable matches that will be drawn from the Champions League draw, under its facing rules regarding nationalities,previous encounters and groups position for each team.
 
 # How is the Champions League set up?
 # Group Stage (prior to the Knockout Stage)
