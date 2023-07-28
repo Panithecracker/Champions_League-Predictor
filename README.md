@@ -9,7 +9,7 @@ Below, the picture shows last year Group Stage results:
 ![GROUPSTAGE_50](https://user-images.githubusercontent.com/97905110/217606580-79847af6-e18d-4149-8134-5fcfc7afc5d7.jpg)
 
 # Knockout Stage: 16 teams and one *draw*
-After the Group Stage, the 16 teams that are left enter the Knockout stage and a special draw takes place, which will annunce the following 8 matches from these teams, reducing the size of teams to 8, which are the winners of the drawn matches. To study the probabilities of each match to be drawn, it is essential to understand the three rules that govern this draw:
+After the Group Stage, the 16 teams that are left enter the Knockout stage and a special draw takes place, which will announce the following 8 matches from these teams, reducing the size of teams to 8, which are the winners of the drawn matches. To study the probabilities of each match to be drawn, it is essential to understand the three rules that govern this draw:
 ## Rule 1: Bowl splitting
 * Teams are initially separated into two bowls: Group 1 bowl and Group 2 bowl
 The match ups are made always so that a group 1 team ends up facing another one (if further rules mentioned later are also satisfied) from group 2. Teams from the same group never face each other! 
