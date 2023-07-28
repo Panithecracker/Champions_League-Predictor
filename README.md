@@ -29,7 +29,7 @@ By combining the last two rules, see that there are impossibles match ups alread
 # Deriving a system of linear equations to find the probabilities:
 Similar to a Sudoku, the structure of the table made is convenient for a reason : for each entry, the sum of the entries in its row must be 1. The same holds for the sum of the column entries. Therefore, since we have 64-16 = 48 nonzero entries (unkowns), the number of equations is 48*2 = 96. This is called an "overdetermined system" and it may have infinite solutions (still had some hope this was possible, since we were ignoring the conditions that the unknowns must be nonnegative real values from 0 to 1 as they represent probabilities) or no solution at all (this would mean that an exact solution doesnt exist so we would have to take a numerical approach to approximate)
 Sadly, the system turned up to have no solution , as I proved by coding a Matlab script that performed Gaussian Elimination on the augmented matrix ( maximal pivoting variant to minimize roundoff errors), had rows with all zeros in the coefficient part and a nonzero in the independent one.
-From this devastating conclusion , it was clear to us that the system had no solution and we had to take another appraoch to estimate it -> Monte Carlo Simulation of hundreds of thousands of draws.
+From this devastating conclusion , it was clear to us that the system had no solution and we had to take another approach to estimate it -> Monte Carlo Simulation of hundreds of thousands of draws.
 
 # Numerical Conclusions from simulation of 100000 draws:
 Monte Carlo simulation is based on the following statement to help one approximate the probability of some event:
