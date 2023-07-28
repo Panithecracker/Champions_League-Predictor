@@ -33,7 +33,7 @@ From this devastating conclusion , it was clear to us that the system had no sol
 
 # Numerical Conclusions from simulation of 100000 draws:
 Monte Carlo simulation is based on the following statement to help one approximate the probability of some event:
-### Relative frequencies approach probabilities as the number of repetitions of the experiment approaches infinity (that is, the probabilities of particular matches taking place this year can be estimated with an error less than any E>0, as long as we look at the relative frequency of that match after simulating N=N(E) tournament draws (N is expected to grow as E shrinks).
+### Relative frequencies approach probabilities as the number of repetitions of the experiment approaches infinity.Then, the probabilities of particular matches taking place this year can be estimated with an error less than any E>0, as long as we look at the relative frequency of that match after simulating N=N(E) tournament draws (N is expected to grow as E shrinks).
 By keeping track of the results in each of the draws (incrementing by a 1 the appropiate entry in the matrix of all possible team combinations) and in the end dividing by 100000, the  probabilities of each match were estimated to be:
 
 ![probsteams](https://user-images.githubusercontent.com/97905110/217650644-6b33bf8a-108d-45d4-976d-63db1c11c23e.png)
