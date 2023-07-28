@@ -31,7 +31,7 @@ Similar to a Sudoku, the structure of the table made is convenient for a reason 
 Sadly, the system turned up to have no solution , as I proved by coding a Matlab script that performed Gaussian Elimination on the augmented matrix ( maximal pivoting variant to minimize roundoff errors), had rows with all zeros in the coefficient part and a nonzero in the independent one.
 From this devastating conclusion , it was clear to us that the system had no solution and we had to take another approach to estimate it -> Monte Carlo Simulation of hundreds of thousands of draws.
 
-# Numerical Conclusions after simulating N = 100000 draws:
+# Numerical Conclusions after simulating 10E6 draws:
 Monte Carlo simulation is based on the following statement to help one approximate the probability of some event:
 ### Relative frequencies approach probabilities as the number of repetitions of the experiment approaches infinity.Then, the probabilities of particular matches taking place this year can be estimated with an error less than any E>0, as long as we look at the relative frequency of that match after simulating N=N(E) tournament draws (N is expected to grow as E shrinks).
 By keeping track of the results in each of the draws (incrementing by a 1 the appropiate entry in the matrix of all possible team combinations) and in the end dividing by 100000, the  probabilities of each match were estimated to be:
