@@ -27,7 +27,7 @@ By combining the last two rules, see that there are impossibles match ups alread
 ![Applied Math 🔗🔗-43](https://user-images.githubusercontent.com/97905110/217595741-010f23b6-3763-4f64-b885-e5fb9de40399.jpg)
 
 # Deriving a system of linear equations to find the probabilities:
-Similar to a Sudoku, the structure of the table made is convenient for a reason : for each entry, the sum of the entries in its row must be 1. The same holds for the sum of the column entries. Therefore, since we have 64-16 = 48 nonzero entries (unkowns), the number of equations is 48*2 = 96. This is called an "overdetermined system" and it may have infinitely many solutions a unique solution (this is what we expect) or no solution.
+Similar to a Sudoku, the structure of the table made is convenient for a reason : for each entry, the sum of the entries in its row must be 1. The same holds for the sum of the column entries. Therefore, we have 64-16 = 48 nonzero entries (unkowns) constrained by 2*8=16. This is called an "underdetermined system" and it may have infinitely many solutions or no solution. However, note that there are another 48 nonnegativity constraints since the numbers are probabilities which makes a total of 48 variables and 68 equations.
 Sadly, the system turned up to have no solution , as I proved by coding a Matlab script that performed Gaussian Elimination on the augmented matrix ( maximal pivoting variant to minimize roundoff errors), had rows with all zeros in the coefficient part and a nonzero in the independent one.
 From this devastating conclusion , it was clear to us that the system had no solution and we had to take another approach to estimate it -> Monte Carlo Simulation of hundreds of thousands of draws.
 
