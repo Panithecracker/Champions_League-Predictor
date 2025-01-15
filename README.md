@@ -32,7 +32,7 @@ Sadly, the system turned up to have infinitely many solutions, as I proved by co
 From this devastating conclusion , it was clear to us that the analytical approach was not going to be straight forward and we pivoted to a nummerical way of thinking -> Monte Carlo Simulation of hundreds of thousands of draws.
 
 # Numerical Conclusions after simulating 10E6 draws:
-Monte Carlo simulation is based on the following statement to help one approximate the probability of some event:
+
 ### Relative frequencies approach probabilities as the number of repetitions of the experiment approaches infinity.Then, the probabilities of particular matches taking place this year can be estimated with an error less than any E>0, as long as we look at the relative frequency of that match after simulating N=N(E) tournament draws (N is expected to grow as E shrinks).
 By keeping track of the results in each of the draws (incrementing by a 1 the appropiate entry in the matrix of all possible team combinations) and in the end dividing by 100000, the  probabilities of each match were estimated to be:
 
