@@ -37,7 +37,7 @@ The simulation results after sampling 100000 times are given below:
 
 ![probsteams](https://user-images.githubusercontent.com/97905110/217650644-6b33bf8a-108d-45d4-976d-63db1c11c23e.png)
 
-which is surprisingly similar to the one's published by the sport magazine that motivated us to start this project (this is in percentage, ie: multiplied by 100) :
+which agree reasonably with to the one's published by the sport magazine that motivated us to start this project (given in percentage):
 
 ![source_1_50](https://user-images.githubusercontent.com/97905110/217651668-124cbfbf-33f5-40c0-b9c4-1d13cfbebb8f.jpg)
 
